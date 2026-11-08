@@ -26,6 +26,8 @@ It uses events contained within the local calendar integration to display the in
 - Colors and icons for all custom events.
 - A filter for events.
 
+> **Stuttgart (AWS):** Einrichtung per iCal-Link und Automatisierungen siehe [docs/stuttgart.md](docs/stuttgart.md).
+
 ## Pre-Requirements
 
 TrashCard requires:
