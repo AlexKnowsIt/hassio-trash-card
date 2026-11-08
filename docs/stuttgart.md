@@ -4,7 +4,7 @@ Der AWS-Kalenderlink (iCal) wird in Home Assistant als Kalender eingebunden. Die
 
 ## 1. Kalender abonnieren
 
-1. Auf <https://www.stuttgart.de/organigramm/leistungen/abfallkalender> Adresse eingeben und den iCal-Link kopieren. Aus `webcal://` wird `https://`.
+1. iCal-Link der Adresse holen (<https://www.stuttgart.de/organigramm/leistungen/abfallkalender>). Er hat die Form `https://service.stuttgart.de/lhs-services/aws/api/ical?street=<Straße>&streetnr=<Nr>` (Leerzeichen als `%20`). Aus `webcal://` wird `https://`.
 2. *Einstellungen → Geräte & Dienste → Integration hinzufügen → **Remote Calendar*** (ab HA 2025.7), Link einfügen. Es entsteht z. B. `calendar.abfall_stuttgart`.
 3. Unter *Entwicklerwerkzeuge → Aktionen* `calendar.get_events` für diese Entität aufrufen und die exakten Titel (`summary`) der Termine notieren, z. B. `Restmüll`, `Bioabfall`, `Papier`, `Gelbe Säcke`.
 
